@@ -88,3 +88,6 @@ To ensure the analysis reflects the most current data, all notebooks within the 
 - **Stock Price Prediction**: Leverages RandomForestRegressor and sklearn for accurate predictions of stock closing prices.
 - **Company Description Summarization**: Utilizes OpenAI's API to provide concise summaries of company backgrounds.
 - **Latest News Summarization**: Keeps you updated with the latest news related to the stocks in focus, using OpenAI's API for summarization.
+
+#Video Demonstration:
+[![Video](StockReport.png)](https://www.youtube.com/watch?v=0XzvB8J2AcM)
