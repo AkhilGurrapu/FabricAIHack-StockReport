@@ -1,6 +1,6 @@
 # Stock Report on Top 20 Stocks – FabricAIHack
 
-[View the full interactive report](https://app.powerbi.com/view?r=eyJrIjoiODI1NzBlYzMtYzQxZS00NzNkLWE0OTAtMjhiMGQyMjFjNTI0IiwidCI6IjdlYzIwMTdjLWYzOWYtNGQwOC05YmY1LThmNjYzNDM2YmJkYiIsImMiOjZ9)
+[View the full interactive report](https://app.powerbi.com/view?r=eyJrIjoiZDM0ZmUzNTYtNDA1Yy00YTExLWJiNTQtNzE2MmY5YTIzZTg0IiwidCI6IjdlYzIwMTdjLWYzOWYtNGQwOC05YmY1LThmNjYzNDM2YmJkYiIsImMiOjZ9)
 
 ## Project Overview
 
