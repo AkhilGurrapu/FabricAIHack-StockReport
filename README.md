@@ -19,9 +19,13 @@ The project is organized into a dedicated workspace named FinanceAI, which has a
 
 - [News Summary Notebook](https://github.com/AkhilGurrapu/FabricAIHack-StockReport/blob/main/Notebooks/NewsSummaryNotebook.ipynb): Summarizes Latest Financial news using OpenAI API which is retrieved through the yfinance library and then writing the data into lakehouse.
 
+![Pipeline](/images/workspace.png)
+
 ## Pipeline and Scheduling:
 
 To ensure the analysis reflects the most current data, all notebooks within the 'FinanceLakehouse' are scheduled to run every 5 minutes. This automated pipeline allows for near real-time analysis, providing up-to-date insights into stock performance, news, and company overviews.
+
+![Workspace](/images/pipeline2.png)
 
 ## Technologies Used
 
@@ -47,14 +51,16 @@ To ensure the analysis reflects the most current data, all notebooks within the 
 
     Within the FinanceAI workspace, create a lakehouse named FinanceLakehouse.
 
-3. **Run the Notebooks**:
+![Workspace](/images/lakehouse.png)
+
+4. **Run the Notebooks**:
 
     Download the provided notebooks and run them within your FinanceLakehouse.
     [Download Notebooks](https://github.com/AkhilGurrapu/FabricAIHack-StockReport/tree/main/Notebooks)
 
     The execution of these notebooks will create three different tables within your lakehouse. These tables will be used to generate a Power BI report.
 
-4. **SQL Analytics Endpoint**:
+5. **SQL Analytics Endpoint**:
 
     Switch to the SQL analytics endpoint within your lakehouse.
     
@@ -68,11 +74,13 @@ To ensure the analysis reflects the most current data, all notebooks within the 
     
     This view will act as a connecting table to all other tables.
 
-5. **Model View**:
+6. **Model View**:
 
     Add the three tables and the newly created view to the default model view by switching to the model view in your SQL Analytics Endpoint.
+   
+![Workspace](/images/model.png)
 
-6. **Generate the Report:**
+8. **Generate the Report:**
 
     Click on "New Report" to start creating your StocksReport using the data available in your model view.
 
