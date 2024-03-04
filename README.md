@@ -90,4 +90,8 @@ To ensure the analysis reflects the most current data, all notebooks within the 
 - **Latest News Summarization**: Keeps you updated with the latest news related to the stocks in focus, using OpenAI's API for summarization.
 
 #Video Demonstration:
-[![Video](StockReport.png)](https://www.youtube.com/watch?v=0XzvB8J2AcM)
+
+[![Watch the video](https://img.youtube.com/vi/0XzvB8J2AcM/0.jpg)](https://www.youtube.com/watch?v=0XzvB8J2AcM "Watch the video")
+
+
+[![Video](StockReport.png)](https://www.youtube.com/watch?v=0XzvB8J2AcM "Watch the video")
