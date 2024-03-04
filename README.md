@@ -3,7 +3,7 @@
 [View the full interactive report](https://app.powerbi.com/view?r=eyJrIjoiOTQ5ZjcwNzgtYzVkZS00NmRhLWIxZWUtZjIzMWYxNWZkNzk5IiwidCI6IjdlYzIwMTdjLWYzOWYtNGQwOC05YmY1LThmNjYzNDM2YmJkYiIsImMiOjZ9)
 ## Project Overview
 
-This project involves the creation of a Power BI report on the top 20 stocks, using Microsoft Fabric and OpenAI API for summarizing company descriptions and the latest news. Employed a RandomForestRegressor model from the sklearn library to predict the closing price of these stocks. This project provides near real-time insights into stock prices, company descriptions, and the latest news.
+This project involves the creation of a Power BI report on the top 20 stocks, using Microsoft Fabric (Fabric Notebooks, Lakehouse, SQL Analytics Endpoint, Data Pipelines)  and OpenAI API for summarizing company descriptions and the latest news. Employed a RandomForestRegressor model from the sklearn library to predict the closing price of these stocks. This project provides near real-time insights into stock prices, company descriptions, and the latest financial news.
 
 ![Viz](/StockReport.png)
 
@@ -12,7 +12,7 @@ This project involves the creation of a Power BI report on the top 20 stocks, us
 
 ## Project Structure
 
-The project is organized into a dedicated workspace named FinanceAI, which has a lakehouse called FinanceLakehouse. Within the lakehouse, three Fabric notebooks are utilized for distinct purposes:
+The project is organized into a dedicated workspace(FinanceAI), and then created a lakehouse (FinanceLakehouse). Within the lakehouse, three Fabric notebooks are utilized for distinct purposes:
 
 - [Prediction Model Notebook](https://github.com/AkhilGurrapu/FabricAIHack-StockReport/blob/main/Notebooks/Prediction%20Model%20Notebook.ipynb): Fetches stock data and employs a RandomForestRegressor model for predicting the closing prices of stocks and then writing the data into lakehouse after transformations.
 
@@ -20,17 +20,17 @@ The project is organized into a dedicated workspace named FinanceAI, which has a
 
 - [News Summary Notebook](https://github.com/AkhilGurrapu/FabricAIHack-StockReport/blob/main/Notebooks/NewsSummaryNotebook.ipynb): Summarizes Latest Financial news using OpenAI API which is retrieved through the yfinance library and then writing the data into lakehouse.
 
-![Pipeline](/images/workspace.png)
+![Workspace](/images/workspace.png)
 
 ## Pipeline and Scheduling:
 
 To ensure the analysis reflects the most current data, all notebooks within the 'FinanceLakehouse' are scheduled to run every 5 minutes. This automated pipeline allows for near real-time analysis, providing up-to-date insights into stock performance, news, and company overviews.
 
-![Workspace](/images/pipeline2.png)
+![Pipeline](/images/pipeline2.png)
 
 ## Technologies Used
 
-- **Microsoft Fabric**: Utilized for seamless integration and management within the Microsoft ecosystem.
+- **Microsoft Fabric (Fabric Notebooks, Lakehouse, SQL Analytics Endpoint, Data Pipelines)**: Utilized for seamless integration and management within the Microsoft ecosystem.
 - **OpenAI API**: Powers the summarization of company descriptions and news articles.
 - **yfinance**: A Python library used for fetching real-time market data from Yahoo Finance.
 - **RandomForestRegressor & sklearn**: Machine learning tools used for predicting stock prices based on historical data.
@@ -39,7 +39,7 @@ To ensure the analysis reflects the most current data, all notebooks within the 
 ## Getting Started
 ### Prerequisites:
 
-- Free Microsoft Fabric account
+- [Free Microsoft Fabric account](https://www.microsoft.com/en-us/microsoft-fabric/getting-started)
 - OpenAI API key
 
 ### Setup:
