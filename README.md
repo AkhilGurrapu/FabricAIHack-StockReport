@@ -1,5 +1,7 @@
 # Stock Report on Top 20 Stocks – FabricAIHack
 
+[View the full interactive report]([https://your-publish-to-web-link](https://app.powerbi.com/view?r=eyJrIjoiODI1NzBlYzMtYzQxZS00NzNkLWE0OTAtMjhiMGQyMjFjNTI0IiwidCI6IjdlYzIwMTdjLWYzOWYtNGQwOC05YmY1LThmNjYzNDM2YmJkYiIsImMiOjZ9))
+
 ## Project Overview
 
 This project involves the creation of a Power BI report on the top 20 stocks, using Microsoft Fabric and OpenAI API for summarizing company descriptions and the latest news. Employed a RandomForestRegressor model from the sklearn library to predict the closing price of these stocks. This project provides near real-time insights into stock prices, company descriptions, and the latest news.
@@ -89,7 +91,7 @@ To ensure the analysis reflects the most current data, all notebooks within the 
 - **Company Description Summarization**: Utilizes OpenAI's API to provide concise summaries of company backgrounds.
 - **Latest News Summarization**: Keeps you updated with the latest news related to the stocks in focus, using OpenAI's API for summarization.
 
-#Video Demonstration:
+# Video Demonstration:
 
 
 [![Video](StockReport.png)](https://www.youtube.com/watch?v=0XzvB8J2AcM "Watch the video")
