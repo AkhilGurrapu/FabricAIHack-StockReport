@@ -12,6 +12,8 @@ This project involves the creation of a Power BI report on the top 20 stocks, us
 
 ## Project Structure
 
+![Structure](/images/fabricAI.jpg)
+
 The project is organized into a dedicated workspace(FinanceAI), and then created a lakehouse (FinanceLakehouse). Within the lakehouse, three Fabric notebooks are utilized for distinct purposes:
 
 - [Prediction Model Notebook](https://github.com/AkhilGurrapu/FabricAIHack-StockReport/blob/main/Notebooks/Prediction%20Model%20Notebook.ipynb): Fetches stock data and employs a RandomForestRegressor model for predicting the closing prices of stocks and then writing the data into lakehouse after transformations.
