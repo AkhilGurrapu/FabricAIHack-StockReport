@@ -12,7 +12,7 @@ This project involves the creation of a Power BI report on the top 20 stocks, us
 
 ## Project Structure
 
-![Structure](/images/fabricAI.jpg)
+![Structure](/images/fabricAI.png)
 
 The project is organized into a dedicated workspace(FinanceAI), and then created a lakehouse (FinanceLakehouse). Within the lakehouse, three Fabric notebooks are utilized for distinct purposes:
 
