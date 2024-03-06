@@ -5,9 +5,6 @@
 
 This project involves the creation of a Power BI report on the top 20 stocks, using Microsoft Fabric (Fabric Notebooks, Lakehouse, SQL Analytics Endpoint, Data Pipelines)  and OpenAI API for summarizing company descriptions and the latest news. Employed a RandomForestRegressor model from the sklearn library to predict the closing price of these stocks. This project provides near real-time insights into stock prices, company descriptions, and the latest financial news.
 
-![Viz](/StockReport.png)
-
-
 ![Description of the visualization](/Viz.gif)
 
 ## Project Structure
